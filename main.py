@@ -33,7 +33,7 @@ def grupas(cilveku_saraksts,grupu_skaits):
 
 # Programma sadala dotos cilvēkus tik grupās, cik dots
 dots = "Arturs,Megija,Ainārs,Daniels,Roberts,Vilis,Sintija,Alīna,Mārcis,Harijs,Nils"
-grupu_skaits = 4
+grupu_skaits = 3
 
 saraksts = dots.split(",")
 print(grupas(jaucejs(saraksts),grupu_skaits))
